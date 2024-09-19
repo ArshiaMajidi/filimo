@@ -48,7 +48,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
           <img class="rounded-[10px] opacity-70" src="${pe.imgUrl}" alt="">
           <div class="text-[whitesmoke] text-center desktop:text-right mt-2 text-xs">${pe.name}</div>
           <div class="absolute px-2 py-1 flex justify-center items-center top-1 right-2 bg-[#1d2b1f] text-[#4dab56] text-[10px] leading-4 rounded-3xl gap-1">
-            <img src="../images/icon-play.svg" alt="icon-play" class="w-full">
+            <img src="./images/icon-play.svg" alt="icon-play" class="w-full">
             رایگان
           </div>
         </swiper-slide >
@@ -56,10 +56,10 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
         <div class="swiper-slide comment__slide bg-[#ffffff05] border border-solid border-[#33353d] rounded-xl relative p-6 pb-10">
           <div class="slide__top flex flex-row justify-between">
             <div class="comm__info flex flex-row gap-2">
-              <img src="../images/info.webp" class="w-6 h-6" alt="info">
+              <img src="./images/info.webp" class="w-6 h-6" alt="info">
               <span class="text-sm text-[#959ba2]">${pe.name}</span>
             </div>
-            <img src="../images/virgol.webp" alt="">
+            <img src="./images/virgol.webp" alt="">
           </div>
           <div class="com__text">
             <span class="text-xs text-[whitesmoke]">${pe.comment}</span>
